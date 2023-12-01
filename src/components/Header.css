@@ -1,0 +1,22 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to right, #672280, #A626D3);
+    color: white;
+    padding: 15px;
+    margin: 0;
+    text-shadow: 
+    -1px -1px 0 #000, /* Top-left */
+    1px -1px 0 #000,  /* Top-right */
+    -1px 1px 0 #000,  /* Bottom-left */
+    1px 1px 0 #000;
+}
+.left{
+    display: flex;
+    gap: 15px;
+}
+.left img{
+    width: 80px;
+    height: auto;
+}
+
